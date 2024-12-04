@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>Personnel Registration Form</h2>
+    <form name="registration" action="signUp" method="get">
+        <label for="name">Name</label> <br>
+        <input type="text" name="name" size="30" maxlength="30" required>
+        <br>
+        <label style="color: blueviolet;" for="surname">Surname</label> <br> 
+        <input type="text" name="surname" style="color: aquamarine;" size="25">
+        <br>
+        <label for="email">Email</label> <br> 
+        <input type="email" name="email">
+        <br>
+        <label for="gender" >Gender</label> <br> 
+        <input type="radio" name="gender" > Male
+        <input type="radio" name="gender"> Female
+        <br>
+        <label for="country">Country</label> <br> 
+        <select name="country" id="countries" >  <!--Combobox-->
+            <option style="color: rgb(202, 15, 15);">Turkey</option>
+            <option>USA</option>
+            <option>Denmark</option>
+            <option style="background-color: blue;">Germany</option>
+            <option selected>Holland</option>   <!--Seçili olarak bir tanesinin gelmesi için 'Selected'-->
+        </select>
+        <br>
+       
+        <input type="submit" value="Onayla" name="onayla" id="onayla" >
+        <input type="reset" value="İptal" name="iptal" id="iptal" >
+    </form>
+
+</body>
+
+</html>
