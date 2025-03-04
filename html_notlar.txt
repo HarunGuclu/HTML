@@ -1,0 +1,139 @@
+h etiketleri seo açısından önemlidir. en önemli başlık h1, en az önemli olan h6.
+önem sırasına göre sıralanmalıdır.
+
+
+içeriklerin olabildiğinde sade faydalı kısa olmalı. önemli kelime veya cümleler vurgulanmalıdır.
+
+b etiketi metni koyu kalın yapar
+strong etiketi de koyu kalın yapar(seo)
+
+i etiketi italik yapar
+em etiketi de italik yapar
+
+small etiketi metni birazcık önemsiz yaparak kısaltır
+
+dev ve ins etiketleri ise del etiketinin içine yazılan şeyin üstü çizilir ins içine yazılanın da altı çizilir. örneğin indirim olduğunda 99 tlden 80 tlye inerken 99un üstü 80 in altı çizilir
+
+
+sub etiketi örneğin indis yazarken a0(sağ alta koyar)
+sup etiketi ise örneğin x2(kare) (sağ üste) yerleştirme yapar
+
+
+<!---------> yorum satırı   vscode  ctrl+k+c
+
+ mark etiketi metnin üstünü sarı fosforlu renkle çizer
+
+img etiketinin alt etiketi seo açısından önemlidir ve isim uyumlu verilmelidir
+
+width veya height etiketleri biçimlendirmek için kullanılır. ikisinden  sadece herhangi birinin kullanılması sonucu yapısı bozulmaz. yani sadece height kullanılırsa width verilmezse width resmin yapısına uygun şekilde otomatik ayarlanır.
+
+
+linklerde  target özelliği sayfanın nasıl açılacağını gösterir. self ise aynı sayfada
+blank ise yeni sekmede açılır.
+
+linklerdeki title özelliği de cursor üstüne gittiğinde bilgilendirme yapar.
+
+mailto: linki mail atmak için kullanılır
+
+
+ul -> unordered list  | ol -> ordered list | li -> liste elemanlarını yazmak için kullanılır
+
+dl -> description list -> elemanlarnı tanımlamak için dt  açıklamasını yapmak için dd kullanılır.
+örnek
+------
+dl
+	dt   html  dt
+	dd	5 saat işlenecek  dd
+dl
+
+style olarak list sytle type ile önlerine nasıl sıralanacağı ayarlanabilir
+
+type özelliği de aynı işlevi görür
+ol de start özelliği nasıl kaçtan başlanacağı ayarlanabilir
+
+display:block(a, span etiketi gibi) özelliği bir etikete uygulandığında tüm satırı kaplar
+
+display:inline özelliği  sadece içeriği kadar yer kaplar tüm satırı kaplamaz. 5px lik yer kaplıyorsa 5px kadar  yer ayrılır.
+
+span etiketi kapsadığı elemanlara spesifik olarak css veya farklı bir şey uygulamak istendiğinde kullanırız.
+
+tr: tablo satırı   td: tablo sütunu   th: tablo başlığı
+
+thead içine tablo başlıkları(th) eklenir
+
+tbody içine ise tr td ler eklenir
+
+colspan özelliği satırları birleştirir
+
+rowspan özelliği sütunları birleştirir
+
+cellpadding ve cellspacing özellikleri tablo sınırları arasına mesafe koyar
+
+
+formlarda action özelliği bir metod ya da sayfaya "submit butonuna" basıldığında ilgili sayfaya ya da metoda  gönderir
+
+label daki "for" özelliği ilgili inputtaki id ilişkili olması gerekmektedir. yani label for="name"  yazıyorsa ilgili inputta id="name" olması uygun olur
+
+radiobutton larda "name" özelliği aynı verilirse kullanıcı onlardan sadece 1 tane seçebilir. örneğin cinsiyet gibi. aynı özellik checkboxlarda da geçerlidir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
